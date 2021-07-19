@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectTypes>
+    <type id="/pet/findByStatus" label="findPetsByStatus"/>
+    <type id="/pet/findByTags" label="findPetsByTags"/>
+    <type id="/pet/{petId}" label="getPetById"/>
+    <type id="/store/inventory" label="getInventory"/>
+    <type id="/store/order/{orderId}" label="getOrderById"/>
+    <type id="/user/login" label="loginUser"/>
+    <type id="/user/logout" label="logoutUser"/>
+    <type id="/user/{username}" label="getUserByName"/>
+</ObjectTypes>

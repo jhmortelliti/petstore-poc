@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectDefinitions>
+    <operationField id="cGF0aF9wZXRJZA" label="Path petId" type="integer" overrideable="true">
+        <helpText>ID of pet to return</helpText>
+    </operationField>
+    <definition elementName="" inputType="none" outputType="json">
+        <jsonSchema>
+            {"type":"object","properties":{"id":{"type":"integer","description":""},"name":{"type":"string","description":""},"category":{"type":"object","properties":{"id":{"type":"integer","description":""},"name":{"type":"string","description":""}}},"photoUrls":{"type":"array","description":"","items":{"type":"string","description":""}},"tags":{"type":"array","description":"","items":{"type":"object","properties":{"id":{"type":"integer","description":""},"name":{"type":"string","description":""}}}},"status":{"type":"string","description":"pet status in the store"}},"$schema":"http://json-schema.org/draft-04/schema#"}
+        </jsonSchema>
+    </definition>
+</ObjectDefinitions>
